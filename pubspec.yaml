@@ -1,0 +1,17 @@
+name: cct_domain
+description: "Domain layer for CCT project implementing Clean Architecture"
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  hive: ^2.2.3
+
+dev_dependencies:
+  test: ^1.25.8
+  mockito: ^5.4.4
+  build_runner: ^2.4.8
